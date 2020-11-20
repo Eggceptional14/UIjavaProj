@@ -31,6 +31,9 @@ public class ItemCatalog extends JPanel {
         rowThree = new JPanel();
         picture.setIcon(new ImageIcon("asset/tshirt.png"));
 
+        itemNumSpn.setPreferredSize(new Dimension(45, 30));
+        addToCartBtn.setPreferredSize(new Dimension(100, 30));
+
         gbc.gridy = 0;
         gbc.fill = GridBagConstraints.BOTH;
         this.add(rowOne, gbc);
